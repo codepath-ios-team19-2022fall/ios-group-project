@@ -93,7 +93,7 @@ A calendar that can tracker user's emotional ebb and flow
 <img width="1340" alt="dayframe_wireframe" src="https://user-images.githubusercontent.com/89565796/194731503-61fd1dfe-f33b-46aa-aae8-35e66a8d4cab.png">
 
 (https://miro.com/app/board/uXjVPPGEU0A=/?share_link_id=423974694587)
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
 
 ### [BONUS] Interactive Prototype
 
