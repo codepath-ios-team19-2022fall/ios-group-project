@@ -18,9 +18,9 @@ A calendar that can tracker user's emotional ebb and flow
 - **Category:** Organization/Mental Health
 - **Mobile:** This app would primarly be used on mobile but it could be used across different technologies.
 - **Story:** Creates a calendar that can add events and show
-- **Market:** This app could be used by an individual for their day to day lives, or it could be used for companies to create a calendar that can be used for a group of people to track work related events and track employee mood. 
+- **Market:** This app could be used by an individual for their day to day lives, what events they have going on, how they are feeling, and overall help keep track of a person's schedule. 
 - **Habit:** This app can be used whenever the user feels the need to track events and keep track of their moods.
-- **Scope:** This could be used for individuals wanting to track their personal progress and plan ahead, and it could be used for multiple people in a group who want to syncronize their schedules, i.e. family, or friends. Lastly, it could be used in a professional setting to regulate a work space and keep teams working in conjunction in a work place. 
+- **Scope:** This could be used for individuals wanting to track their personal progress and plan ahead in terms of their schedule. It can also help show trends between moods and their schedule, and it will help a person maintain the progress that they make with tasks and their mood.  
 
 ## Product Spec
 
@@ -90,10 +90,10 @@ A calendar that can tracker user's emotional ebb and flow
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-<img width="1340" alt="dayframe_wireframe" src="https://user-images.githubusercontent.com/89565796/194765964-311874b1-b4f4-4215-8647-9ae0883b69c4.png">
+![](https://i.imgur.com/XswbGPv.png)
 
 (https://miro.com/app/board/uXjVPPGEU0A=/?share_link_id=423974694587)
-
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Interactive Prototype
 
