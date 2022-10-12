@@ -90,7 +90,7 @@ A calendar that can tracker user's emotional ebb and flow
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-![](https://i.imgur.com/XswbGPv.png)
+<img width="1615" alt="Screen Shot 2022-10-11 at 8 53 43 PM" src="https://user-images.githubusercontent.com/89565796/195239117-5ef81102-d9c4-4bff-94d1-c9ddd151ca26.png">
 
 (https://miro.com/app/board/uXjVPPGEU0A=/?share_link_id=423974694587)
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
