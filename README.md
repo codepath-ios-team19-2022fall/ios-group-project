@@ -98,10 +98,47 @@ A calendar that can tracker user's emotional ebb and flow
 
 ## Schema 
 
-| Attempt | #1    | #2    |
+Title Screen
+| Property | Type  | Description |
 | :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
-[Add table of models]
+| username | String | The user's username for the account|
+| password | String | The password associated with the account|
+
+Today's Mood
+| Property | Type  | Description |
+| :---:   | :---: | :---: |
+| dailyMood | String | Mood of the user on that day|
+| dailyMoodTrack | String | How many times the user wants their mood checked|
+
+Monthly View
+| Property | Type  | Description |
+| :---:   | :---: | :---: |
+| month | Number | Correlates with what month it is|
+| year | Number | Correlates with what year it is|
+
+Daily View
+| Property | Type  | Description |
+| :---:   | :---: | :---: |
+| day | Number | Correlates with what day it is|
+| time | Number | Time of each event|
+| event | String | Short description/title for each event given by user |
+
+Mood Settings
+| Property | Type  | Description |
+| :---:   | :---: | :---: |
+| day | Number | Correlates with what day it is|
+| time | Number | Time of each event|
+| event | String | Short description/title for each event given by user |
+
+Contacts
+| Property | Type  | Description |
+| :---:   | :---: | :---: |
+| image | File | Image of the contact|
+| name | String | Name of the contact|
+| connection | String | Way the user knows the contact|
+| contactInfo | String | Contact information of the contact|
+
+
 ### Networking
 - Login
     - (Read/GET) Query identity provider with username and password
