@@ -137,7 +137,6 @@ A calendar that can tracker user's emotional ebb and flow
 
 - Mood Selector
     - No network interaction
-    - 
 - Mood Motivations
     - No network interaction
 - Motivating Pictures
