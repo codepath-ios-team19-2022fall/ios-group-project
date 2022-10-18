@@ -95,13 +95,55 @@ A calendar that can tracker user's emotional ebb and flow
 (https://miro.com/app/board/uXjVPPGEU0A=/?share_link_id=423974694587)
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
+
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Login
+    - (Read/GET) Query identity provider with username and password
+```
+    @IBAction func signin(_ sender: Any) {
+        PFUser.logInWithUsername(inBackground: self.txtUsernameSignin.text!, password: self.txtPasswordSignin.text!) {
+          (user: PFUser?, error: Error?) -> Void in
+          if user != nil {
+            self.displayAlert(withTitle: "Login Successful", message: "")
+          } else {
+            self.displayAlert(withTitle: "Error", message: error!.localizedDescription)
+          }
+        }
+    }
+```
+    
+- Register
+    - (Write/POST) Register user on back4app
+```
+    @IBAction func signup(_ sender: Any) {
+        let user = PFUser()
+        user.username = self.txtUsernameSignup.text
+        user.password = self.txtPasswordSignup.text
+        
+        self.indicatorSignup.startAnimating()
+        user.signUpInBackground {(succeeded: Bool, error: Error?) -> Void in
+            self.indicatorSignup.stopAnimating()
+            if let error = error {
+                self.displayAlert(withTitle: "Error", message: error.localizedDescription)
+            } else {
+                self.displayAlert(withTitle: "Success", message: "Account has been successfully created")
+            }
+        }
+    }
+```
+
+- Mood Selector
+    - No network interaction
+    - 
+- Mood Motivations
+    - No network interaction
+- Motivating Pictures
+    - (Read/GET) Query data base for motivating pictures for user
+    ```
+    // Using back4app.com as back end
+    let image = PFObject(imageClass: "images")
+    ```
+
