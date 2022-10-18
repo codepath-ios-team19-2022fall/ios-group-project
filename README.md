@@ -98,6 +98,9 @@ A calendar that can tracker user's emotional ebb and flow
 
 ## Schema 
 
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
 [Add table of models]
 ### Networking
 - Login
