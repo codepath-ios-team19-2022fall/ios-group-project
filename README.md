@@ -126,9 +126,9 @@ Daily View
 Mood Settings
 | Property | Type  | Description |
 | :---:   | :---: | :---: |
-| day | Number | Correlates with what day it is|
-| time | Number | Time of each event|
-| event | String | Short description/title for each event given by user |
+| greetings | Boolean | Whether the user wants morning greetings|
+| moodNotif | Boolean | Whether the user wants notifications for mood checks|
+| moodShare | Boolean | Whether the user wants to share their mood with others on the app |
 
 Contacts
 | Property | Type  | Description |
