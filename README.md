@@ -35,7 +35,7 @@ A calendar that can tracker user's emotional ebb and flow
 * User can switch view between montly, weekly and daily
 * User can set up mood settings preference
 * Application can send notifications
-* Styled log in and registration screen [X]
+* Styled log in and registration screen [x]
 
 
 **Optional Nice-to-have Stories**
@@ -186,4 +186,5 @@ Contacts
     // Using back4app.com as back end
     let image = PFObject(imageClass: "images")
     ```
-
+## Progress
+<img src='http://g.recordit.co/KNlQTrndtD.gif' title='10-24 Progress' width='' alt='10-24 Progress'/>
