@@ -17,7 +17,7 @@ A calendar that can tracker user's emotional ebb and flow
 
 - **Category:** Organization/Mental Health
 - **Mobile:** This app would primarly be used on mobile but it could be used across different technologies.
-- **Story:** Allowd for the user to track their moods in an app and recognize trends and patterns that they can then avoid to improve their lives.
+- **Story:** Allow for the user to track their moods in an app and recognize trends and patterns that they can then avoid to improve their lives.
 - **Market:** This app could be used by an individual for their day to day lives, what events they have going on, and how they are feeling
 - **Habit:** This app can be used whenever the user feels the need to keep track of their moods.
 - **Scope:** This could be used to help show trends between moods and their schedule, and it will help a person maintain the progress that they make with their mood.  
