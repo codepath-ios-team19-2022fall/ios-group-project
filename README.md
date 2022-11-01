@@ -17,10 +17,10 @@ A calendar that can tracker user's emotional ebb and flow
 
 - **Category:** Organization/Mental Health
 - **Mobile:** This app would primarly be used on mobile but it could be used across different technologies.
-- **Story:** Creates a calendar that can add events and show
-- **Market:** This app could be used by an individual for their day to day lives, what events they have going on, how they are feeling, and overall help keep track of a person's schedule. 
-- **Habit:** This app can be used whenever the user feels the need to track events and keep track of their moods.
-- **Scope:** This could be used for individuals wanting to track their personal progress and plan ahead in terms of their schedule. It can also help show trends between moods and their schedule, and it will help a person maintain the progress that they make with tasks and their mood.  
+- **Story:** Allowd for the user to track their moods in an app and recognize trends and patterns that they can then avoid to improve their lives.
+- **Market:** This app could be used by an individual for their day to day lives, what events they have going on, and how they are feeling
+- **Habit:** This app can be used whenever the user feels the need to keep track of their moods.
+- **Scope:** This could be used to help show trends between moods and their schedule, and it will help a person maintain the progress that they make with their mood.  
 
 ## Product Spec
 
@@ -28,21 +28,16 @@ A calendar that can tracker user's emotional ebb and flow
 
 **Required Must-have Stories**
 
-* User logs in to access calendar, mood track, and preference settings
+* User logs in to mood track and preference settings
 * User updates the mood setting for the day
-* User can view the calender in monthly, weekly and daily mode
-* User can add, edit and delete events from the calender
-* User can switch view between montly, weekly and daily
+* User can view the moods in monthly, weekly and daily mode
 * User can set up mood settings preference
 * Application can send notifications
-- [X] Styled log in and registration screen 
+* [X] Styled log in and registration screen 
+* Mood screen
 
 
 **Optional Nice-to-have Stories**
-
-* Calender can sync with other calenders
-* Calender can shared with other designated users
-
 
 ### 2. Screen Archetypes
 
@@ -56,9 +51,6 @@ A calendar that can tracker user's emotional ebb and flow
 * Help Page
     * When user choose "Help please!"
     * Options of helps
-* Calendar monthly view
-* Calendar weekly view
-* Calendar daily view
 * Mood Settings
 * App Settings
 
@@ -66,14 +58,10 @@ A calendar that can tracker user's emotional ebb and flow
 
 **Tab Navigation** (Tab to Screen)
 
-* Calendar
 * Mood Today
 * Mood Settings
 * App Settings
 * Add events
-* Daily View
-* Weekly View
-* Monthly View
 
 **Flow Navigation** (Screen to Screen)
 
@@ -187,6 +175,9 @@ Contacts
     let image = PFObject(imageClass: "images")
     ```
 ## Progress
+Week of 10-31: 
+* Progress was focused on planning and re-evaluating some of the sprint tasks. The project is sitll being worked screen by screen and then connecting everything. 
+
 Week of 10-24:
 
 <img src='http://g.recordit.co/KNlQTrndtD.gif' title='10-24 Progress' width='' alt='10-24 Progress'/>
